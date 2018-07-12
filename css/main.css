@@ -1,0 +1,80 @@
+body{
+  background: rgb(250, 250, 250)
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 77px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(0,0, 0, .0975);
+}
+
+.nav-left, .nav-center, .nav-right {
+  display: inline-block;
+}
+
+.nav-left {
+  padding-left: 13%;
+}
+
+.nav-left i {
+font-size: 35px;
+display: inline-block;
+border-right: 1px solid #262626;
+padding-right: 15px;
+
+}
+
+.nav-left h1 {
+  position: relative;
+  bottom: 5px;
+  display: inline-block;
+  padding-left: 15px;
+  font-family: cursive;
+}
+
+.nav-center{
+  margin-left: 13%;
+  width: 215px;
+}
+
+nav .nav-center input {
+  position: relative;
+  width: 100%;
+  height: 28px;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  font-size: 14px;
+
+}
+
+.nav-center span {
+  z-index: 5;
+  position: relative;
+  left: 70px;
+  top: 25px;
+
+}
+
+.fa-search {
+color: #999;
+font-size: 12px;
+}
+
+.nav-right{
+  margin-left: 15%;
+  width: 180px;
+
+}
+
+nav .nav-right i{
+  margin: 0 15px;
+  font-size: 23px;
+  color: #999;
+
+}
