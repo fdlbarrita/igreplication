@@ -93,7 +93,7 @@ nav .nav-right i{
 height: 152px;
 width: 152px;
 border-radius: 50%;
-border: 1px solid rgba(234,199, .68);
+border: 1px solid rgba(234,199, 68);
 margin-left: 9%;
 }
 .user-info {
@@ -105,16 +105,17 @@ margin-left: 9%;
   margin-left: 10%;
 
   }
-/* Row-1 */
+/* Row-1 fee99 */
   #user-profile .user-info .row-1  h1 {
     display: inline-block;
     font-size: 32px;
     font-weight: 300;
     font-family: sans-serif;
+    margin: 0px;
     margin-right: 5%;
   }
 
-  /* Edit profile button */
+  /* Edit profile button  */
 
   #user-profile .user-info .row-1 button {
     height: 30px;
@@ -136,6 +137,34 @@ margin-left: 9%;
   margin-left:  3%;
   font-size: 30px;
 
+}
 
+#user-profile .user-info .row-2{
+  padding-top: 3%;
+}
 
+#user-profile .user-info .row-2 h5 {
+  display: inline-block;
+  margin: 0px;
+
+}
+
+#user-profile .user-info .row-2 h5, a {
+  font-size: 18px;
+  color: #262626;
+  padding-right: 8%;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+#user-profile .user-info .row-2{
+  font-weight: 600;
+
+}
+
+.row-3 p{
+  font-size: 17px;
+  color: #262626;
+  font-weight: 400;
+  font-family: sans-serif;
 }
