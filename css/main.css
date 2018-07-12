@@ -78,3 +78,64 @@ nav .nav-right i{
   color: #999;
 
 }
+
+#user-profile {
+  border: 1px solid red;
+
+  position: relative;
+  top: 140px;
+  height: 152px;
+  width: 80%;
+  margin: auto;
+}
+
+.user-pic  {
+height: 152px;
+width: 152px;
+border-radius: 50%;
+border: 1px solid rgba(234,199, .68);
+margin-left: 9%;
+}
+.user-info {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  vertical-align: top;
+  border: 1px solid blue;
+  margin-left: 10%;
+
+  }
+/* Row-1 */
+  #user-profile .user-info .row-1  h1 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-right: 5%;
+  }
+
+  /* Edit profile button */
+
+  #user-profile .user-info .row-1 button {
+    height: 30px;
+    padding: 0px 24px;
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 500px;
+    position: relative;
+    bottom: 5px
+
+  }
+
+  /*Setting Icons  */
+#user-profile .user-info .row-1 a .fa-cog {
+  color: #262626;
+  margin-left:  3%;
+  font-size: 30px;
+
+
+
+}
