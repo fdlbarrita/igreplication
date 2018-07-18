@@ -180,5 +180,36 @@ margin-left: 9%;
 
 .row-3 p span{
   font-weight: 600;
-
+}
  /* Hoover affects */
+
+ #posts {
+   position: relative;
+   top: 182px;
+   width: 80%;
+   margin: auto;
+   border-top: 1px solid rgba(239, 239, 239);
+
+}
+
+.posts-headings {
+  border: 1px solid blue;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto ;
+}
+
+#posts .posts-headings h5 {
+  display: inline-block;
+  margin-right: 5%;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  margin-top: 0px;
+  padding-top: 2%;
+}
+
+#posts .posts-headings h5:nth-child(1) {
+border-top: 1px solid #262626;
+}
